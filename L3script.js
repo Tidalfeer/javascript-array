@@ -1,3 +1,4 @@
+new Array = myArray;
 const myArray = [64, 'Wizard', 'Cleric', 25, 'Bard'];
 console.log("Array declared: ", myArray);
 
@@ -9,7 +10,7 @@ console.log("First Element: ", firstElement);
 console.log("Last Element: ", lastElement);
 console.log("Middle Element:", middleElement);
 
-const arraylenght = myArray.length;
+const arrayLenght = myArray.length;
 console.log("Array Length: ", arraylenght);
 
 myArray.push('newElement');
